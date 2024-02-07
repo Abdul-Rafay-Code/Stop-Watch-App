@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 50, 128);
+}
+.container{
+    /* width: 60vw; */
+    /* margin: 200px auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.box-1{
+    background-color: white;
+    /* width: 20vw; */
+    max-width: 40%;
+    min-width: 20%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+.box-1 h1 {
+    text-align: center;
+}
+.btn-parent button{
+    border: none;
+    border-radius: 8px;
+    padding:10px 19px;
+    font-size: 1.9vw;
+    font-weight: bold;
+}
+.btn-parent button:hover{
+    background-color: black;
+    color: white;
+}
